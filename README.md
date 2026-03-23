@@ -33,7 +33,6 @@ Minimum (adjust to your project):
 - GLAD or GLEW for loading OpenGL functions
 - stb_image (or another image loader) for textures
 
-If your project bundles or uses other libraries (GLM, Assimp, etc.), list them here.
 
 ## Build
 
@@ -90,8 +89,6 @@ Put textures and other data into an `assets/` folder at the repository root (or 
 - shaders/vertex.glsl
 - shaders/fragment.glsl
 
-If paths are configurable via command line or config file, explain how to set them.
-
 ## Troubleshooting
 - Missing OpenGL headers: install appropriate dev packages (Linux: libgl1-mesa-dev; macOS: Xcode / Command Line Tools).
 - Linker errors: verify that you linked GLFW/GL/other libs and that library paths are correct.
@@ -104,11 +101,6 @@ Contributions welcome.
 2. Create a branch: git checkout -b feature/my-change
 3. Commit your changes and push
 4. Open a pull request describing the change
-
-Please include screenshots and steps to reproduce if you submit visual or rendering changes.
-
-## License
-Add a LICENSE file and choose a license (e.g., MIT). If you already have one, state it here.
 
 ## Contact
 Maintainer: @zionmezba
